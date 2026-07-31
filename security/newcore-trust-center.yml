@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: https://trust.newcore.com/
+url: https://trust.newcore.com/
+certifications:
+- SOC 2 Type II
+- CSA STAR Level 1
+- GDPR
+- CCPA
+programs:
+- CISA Secure-by-Design Pledge
+data_residency:
+- EU data residency option available
+security_contact: security@newcore.com
+notes: >-
+  Trust center self-attests SOC 2 Type II (annually audited; security, availability,
+  confidentiality), CSA STAR Level 1, GDPR-compliant processing with EU data residency,
+  and CCPA. Page states it "describes controls maintained by NewCore" and "is not an
+  independent certification." No ISO 27001, PCI DSS, HIPAA, or FedRAMP claimed. No
+  published subprocessor list found.
+evidence:
+- source: https://trust.newcore.com/
+  keywords: [soc 2 type ii, csa star, gdpr, ccpa, cisa secure-by-design]

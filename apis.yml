@@ -1,8 +1,28 @@
 aid: newcore
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newcore.png
 name: NewCore
-description: 'NewCore is a company surfaced as a portfolio company of index-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  NewCore is an enterprise identity-security company building an identity platform
+  that governs both human and AI-agent identities across the enterprise. Its three
+  pillars are Identity Discovery (continuously discovering and mapping every identity
+  across directories, PAM, shadow systems, and AI infrastructure), Identity Security
+  (breach prevention through phishing-resistant authentication and device-bound
+  sessions that cannot be stolen or replayed), and Human + AI Agent Governance
+  (minimum-access provisioning, full lifecycle management, and support for ephemeral
+  agentic workloads). NewCore is backed by Index Ventures. It sells to enterprises via
+  demo request and publishes a trust center (SOC 2 Type II, CSA STAR Level 1, GDPR,
+  CCPA) but does not currently expose a public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/newcore/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Security
+- Identity
+- IAM
+- Authentication
+- AI Agents
+- Governance
+- Zero Trust
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,34 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://newcore.io
+  url: https://newcore.com
+- type: Blog
+  url: https://newcore.com/blog
+- type: TermsOfService
+  url: https://newcore.com/legal/terms
+- type: PrivacyPolicy
+  url: https://newcore.com/legal/privacy
+- type: TrustCenter
+  url: https://trust.newcore.com/
+- type: Compliance
+  name: Compliance program (SOC 2 Type II, CSA STAR L1, GDPR, CCPA)
+  url: https://trust.newcore.com/
+- type: Security
+  name: Security contact / disclosure
+  url: https://trust.newcore.com/
+- type: TrustCenter
+  name: Trust Center artifact
+  url: security/newcore-trust-center.yml
+- type: Compliance
+  name: Compliance program artifact
+  url: security/newcore-trust-center.yml
+- type: VulnerabilityDisclosure
+  name: Security contact / disclosure
+  url: security/newcore-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/newcore-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
